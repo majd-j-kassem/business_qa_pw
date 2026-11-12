@@ -1,0 +1,4 @@
+| ID | Risk | Evidence | Impact | Likelihood | Priority | Mitigation | Status |
+|---|---|---|---|---|---|---|---|
+| R-01 | Weak passwords may enable unauthorized account access. | EC-01/N-04: a common password was accepted. | High | Not assessed | High — provisional | Confirm password policy and test enforcement. | Open |
+| R-02 | Users may register with email addresses they do not own. | Registration and login succeeded without email verification. | Unverified email ownership | Not assessed | Pending assessment | Confirm verification requirements; verify email ownership before enabling features that rely on it. | Open |
